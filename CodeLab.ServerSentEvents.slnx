@@ -1,3 +1,8 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
   <Project Path="CodeLab.ServerSentEvents.Api/CodeLab.ServerSentEvents.Api.csproj" />
+  <Project Path="CodeLab.ServerSentEvents.AppHost/CodeLab.ServerSentEvents.AppHost.csproj" Id="3ea8652b-413f-41d3-8777-993caf66b444" />
+  <Project Path="CodeLab.ServerSentEvents.ServiceDefaults/CodeLab.ServerSentEvents.ServiceDefaults.csproj" />
 </Solution>

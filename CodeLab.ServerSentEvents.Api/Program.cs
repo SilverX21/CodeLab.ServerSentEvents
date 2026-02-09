@@ -3,6 +3,8 @@ using CodeLab.ServerSentEvents.Api;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 builder.Services.AddOpenApi();
 
 //here we create and register a channel for order streaming
@@ -19,6 +21,8 @@ builder.Services.AddHostedService<OrderProducerService>();
 builder.Services.AddCors();
 
 var app = builder.Build();
+
+app.MapDefaultEndpoints();
 
 if (app.Environment.IsDevelopment())
 {
